@@ -1,0 +1,142 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* styles for header */
+
+.header {
+	height: 79px;
+	padding-top: 20px;
+	/* background-color: #02160b; */
+	position: absolute;
+}
+
+.header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .logo {
+	display: flex;
+	align-items: center;
+}
+
+.header .logo .logo-header {
+	margin-left: 15px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	text-transform: uppercase;
+	color: #f7f7f7;
+}
+
+.header .nav ul {
+	width: 480px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.header .nav ul li { display: inline-block; }
+.header .nav ul li a { text-decoration: none; }
+
+.header .nav ul li .btn-blog, 
+.header .nav ul li .btn-contacts {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: #f7f7f7;
+}
+
+.header .nav ul li .btn-sign-in {
+	width: 120px;
+	height: 50px;
+	display: block;
+	background-color: transparent;
+	border: 2px solid #cd6326;
+	border-radius: 5px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: #f7f7f7;
+	cursor: pointer;
+}
+
+/* styles for survival */
+
+.survival {
+	min-height: 779px;
+	background-color: #02160b;
+	background-image: url("../img/bg-fox.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.survival .survival-header {
+	padding-top: 199px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	letter-spacing: 2px;
+	color: #cd6326;
+}
+
+.survival .survival-text {
+	padding: 51px 0 49px 0;
+	width: 274px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: justify;
+	color: #f7f7f7;
+}
+
+.survival .btn-donate {
+	width: 160px;
+	height: 60px;
+	background: #cd6326;
+	border: 2px solid #cd6326;
+	border-radius: 5px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	text-align: center;
+	color: #F7F7F7;
+}
+
+.latest-articles {
+	min-height: 1368px;
+	background-color: #cccccc
+}
+
+
+.get-notified {
+	min-height: px;
+	background-color: #cccccc
+}
+
+
+.footer {
+	min-height: 359px;
+	background-color: #181617
+}
