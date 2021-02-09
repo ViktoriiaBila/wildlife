@@ -17,15 +17,15 @@
 
 .header {
 	height: 79px;
+	width: 1200px;
 	padding-top: 20px;
-	/* background-color: #02160b; */
-	position: absolute;
-}
-
-.header .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 50%;
+	transform: translateX(50%);
 }
 
 .header .logo {
