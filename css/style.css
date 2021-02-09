@@ -16,16 +16,20 @@
 /* styles for header */
 
 .header {
-	height: 79px;
-	width: 1200px;
-	padding-top: 20px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	position: absolute;
 	top: 0;
-	right: 50%;
-	transform: translateX(50%);
+	right: 0;
+	bottom: 0;
+	left: 50%;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1200px;
+	height: 79px;
+	padding-top: 20px;
+	
+	transform: translateX(-50%);
 }
 
 .header .logo {
@@ -35,20 +39,20 @@
 
 .header .logo .logo-header {
 	margin-left: 15px;
+	
 	font-family: Roboto;
+	font-size: 32px;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 32px;
-	text-transform: uppercase;
 	color: #f7f7f7;
+	text-transform: uppercase;
 }
 
 .header .nav ul {
-	width: 480px;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	
+	justify-content: space-between;
+	width: 480px;
 }
 
 .header .nav ul li { display: inline-block; }
@@ -57,24 +61,27 @@
 .header .nav ul li .btn-blog, 
 .header .nav ul li .btn-contacts {
 	font-family: Open Sans;
+	font-size: 23px;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 23px;
 	color: #f7f7f7;
 }
 
 .header .nav ul li .btn-sign-in {
+	display: block;
 	width: 120px;
 	height: 50px;
-	display: block;
+
+	font-family: Roboto;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: normal;
+	color: #f7f7f7;
+	
 	background-color: transparent;
 	border: 2px solid #cd6326;
 	border-radius: 5px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 23px;
-	color: #f7f7f7;
+
 	cursor: pointer;
 }
 
@@ -82,6 +89,7 @@
 
 .survival {
 	min-height: 779px;
+	
 	background-color: #02160b;
 	background-image: url("../img/bg-fox.png");
 	background-repeat: no-repeat;
@@ -90,71 +98,77 @@
 
 .survival .survival-header {
 	padding-top: 199px;
+	
 	font-family: Open Sans;
+	font-size: 48px;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 48px;
-	letter-spacing: 2px;
 	color: #cd6326;
+	letter-spacing: 2px;
 }
 
 .survival .survival-text {
-	padding: 51px 0 49px 0;
 	width: 274px;
+	padding: 51px 0 49px 0;
+	
 	font-family: Open Sans;
+	font-size: 18px;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
 	line-height: 27px;
-	text-align: justify;
 	color: #f7f7f7;
+	text-align: justify;
 }
 
 .survival .btn-donate {
 	width: 160px;
 	height: 60px;
+	
+	font-family: Roboto;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: normal;
+	color: #F7F7F7;
+	text-align: center;
+
 	background: #cd6326;
 	border: 2px solid #cd6326;
 	border-radius: 5px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 23px;
-	text-align: center;
-	color: #F7F7F7;
 }
 
 .latest-articles {
 	min-height: 1368px;
-	background-color: #cccccc
+	background-color: #cccccc;
 }
 
 .latest-articles .latest-articles-header {
 	padding-top: 120px;
+	
 	font-family: Open Sans;
+	font-size: 48px;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 48px;
 	line-height: 72px;
-	text-align: center;
 	color: #333333;
+	text-align: center;
 }
 
 .latest-articles .latest-articles-descr {
 	padding-top: 20px;
+
 	font-family: Open Sans;
+	font-size: 24px;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
 	line-height: 36px;
-	text-align: center;
 	color: #666666;
+	text-align: center;
 }
 
 .latest-articles .news {
-	padding-top: 120px;
 	display: flex;
 	justify-content: space-between;
+	padding-top: 120px;
 }
 
 
