@@ -40,10 +40,8 @@
 .header .logo .logo-header {
 	margin-left: 15px;
 	
-	font-family: Roboto;
+	font-family: 'Roboto';
 	font-size: 32px;
-	font-style: normal;
-	font-weight: normal;
 	color: #f7f7f7;
 	text-transform: uppercase;
 }
@@ -60,10 +58,8 @@
 
 .header .nav ul li .btn-blog, 
 .header .nav ul li .btn-contacts {
-	font-family: Open Sans;
+	font-family: 'Open Sans';
 	font-size: 23px;
-	font-style: normal;
-	font-weight: normal;
 	color: #f7f7f7;
 }
 
@@ -72,10 +68,8 @@
 	width: 120px;
 	height: 50px;
 
-	font-family: Roboto;
+	font-family: 'Roboto';
 	font-size: 23px;
-	font-style: normal;
-	font-weight: normal;
 	color: #f7f7f7;
 	
 	background-color: transparent;
@@ -101,10 +95,8 @@
 .survival .survival-header {
 	padding-top: 199px;
 	
-	font-family: Open Sans;
+	font-family: 'Open Sans';
 	font-size: 48px;
-	font-style: normal;
-	font-weight: normal;
 	color: #cd6326;
 	letter-spacing: 2px;
 }
@@ -113,10 +105,8 @@
 	width: 274px;
 	padding: 51px 0 49px 0;
 	
-	font-family: Open Sans;
+	font-family: 'Open Sans';
 	font-size: 18px;
-	font-style: normal;
-	font-weight: normal;
 	line-height: 27px;
 	color: #f7f7f7;
 	text-align: justify;
@@ -127,10 +117,8 @@
 	height: 60px;
 	margin-bottom: 240px;
 	
-	font-family: Roboto;
+	font-family: 'Roboto';
 	font-size: 23px;
-	font-style: normal;
-	font-weight: normal;
 	color: #F7F7F7;
 	text-align: center;
 
@@ -147,10 +135,8 @@
 .latest-articles .latest-articles-header {
 	padding-top: 120px;
 	
-	font-family: Open Sans;
+	font-family: 'Open Sans';
 	font-size: 48px;
-	font-style: normal;
-	font-weight: normal;
 	line-height: 72px;
 	color: #333333;
 	text-align: center;
@@ -159,10 +145,8 @@
 .latest-articles .latest-articles-descr {
 	padding-top: 20px;
 
-	font-family: Open Sans;
+	font-family: 'Open Sans';
 	font-size: 24px;
-	font-style: normal;
-	font-weight: normal;
 	line-height: 36px;
 	color: #666666;
 	text-align: center;
