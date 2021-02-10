@@ -87,13 +87,15 @@
 
 /* styles for survival */
 
-.survival {
-	min-height: 779px;
-	
-	background-color: #02160b;
+.survival-wrapper {
 	background-image: url("../img/bg-fox.png");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center;
+}
+
+.survival {
+	height: 779px;
+	background-color: #02160b;
 }
 
 .survival .survival-header {
@@ -123,6 +125,7 @@
 .survival .btn-donate {
 	width: 160px;
 	height: 60px;
+	margin-bottom: 240px;
 	
 	font-family: Roboto;
 	font-size: 23px;
