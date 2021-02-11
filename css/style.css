@@ -4,9 +4,7 @@
 	padding: 0;
 }
 
-.wrapper {
-	margin: 0 auto;
-}
+.wrapper { margin: 0 auto; }
 
 .container {
 	max-width: 1200px;
@@ -65,6 +63,23 @@
 	color: #f7f7f7;
 }
 
+.header .nav ul li .btn-blog:hover,
+.header .nav ul li .btn-contacts:hover { color: #cf6426; }
+
+.header .nav ul li .btn-search {
+	display: block;
+	height: 24px;
+}
+
+.header .nav ul li .btn-search:hover,
+.header .nav ul li .btn-search:active { background: url('/icons/search-press.png'); }
+
+.header .nav ul li .btn-search img:hover,
+.header .nav ul li .btn-search img:active { 
+	background: transparent;
+	visibility: hidden;
+}
+
 .header .nav ul li .btn-sign-in {
 	display: block;
 	width: 120px;
@@ -80,6 +95,13 @@
 	border-radius: 5px;
 
 	cursor: pointer;
+	outline: none;
+}
+
+.header .nav ul li .btn-sign-in:hover { background-color: #cd6326; }
+.header .nav ul li .btn-sign-in:active {
+	background-color: #8f5613;
+	border-color: #8f5613;
 }
 
 /* styles for survival */
