@@ -154,6 +154,17 @@
 	background: #cd6326;
 	border: 2px solid #cd6326;
 	border-radius: 5px;
+
+	outline: none;
+}
+
+.survival .btn-donate:hover {
+	background-color: #e39128;
+	border-color: #e39128;
+}
+.survival .btn-donate:active {
+	background-color: #8f5613;
+	border-color: #8f5613;
 }
 
 .latest-articles {
