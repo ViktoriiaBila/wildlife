@@ -16,16 +16,13 @@
 .header {
 	position: absolute;
 	top: 0;
-	right: 0;
-	bottom: 0;
 	left: 50%;
-
+	
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	width: 1200px;
-	height: 79px;
-	padding-top: 20px;
+	padding-top: 19px;
 	
 	transform: translateX(-50%);
 }
@@ -112,10 +109,7 @@
 	background-position: center;
 }
 
-.survival {
-	height: 779px;
-	background-color: #02160b;
-}
+.survival { background-color: #02160b; }
 
 .survival .survival-header {
 	padding-top: 199px;
@@ -167,8 +161,10 @@
 	border-color: #8f5613;
 }
 
+/* styles for latest-articles */
+
 .latest-articles {
-	min-height: 1368px;
+	min-height: 1368px; /* это удалить в конце */
 	background-color: #cccccc;
 }
 
@@ -200,14 +196,16 @@
 	padding-top: 120px;
 }
 
+/* styles for get-notified */
 
 .get-notified {
-	min-height: px;
+	min-height: px; /* это удалить в конце */
 	background-color: #cccccc
 }
 
+/* styles for footer */
 
 .footer {
-	min-height: 359px;
+	min-height: 359px; /* это удалить в конце */
 	background-color: #181617
 }
