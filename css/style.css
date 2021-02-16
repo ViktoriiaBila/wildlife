@@ -242,12 +242,70 @@
 
 /* styles for get-notified */
 
-.get-notified {
-	background-color: #cccccc
+.get-notified { background-color: #cccccc }
+
+.get-notified .get-notified-header {
+	padding-top: 239px;
+
+	font-family: 'Open Sans';
+	font-size: 27px;
+	font-weight: 400;
+	line-height: 40px;
+	color: #333333;
+	text-align: center;
+}
+.get-notified .email-send {
+	display: flex;
+	justify-content: center;
+	padding-top: 59px;
+}
+
+.get-notified .email-send .email {
+	width: 540px;
+	padding-left: 15px;
+
+	font-family: 'Roboto';
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 27px;
+	color: #666666;
+	
+	background-color: transparent;
+	border: 1px solid #666666;
+
+	cursor: pointer;
+	outline: none;
+}
+
+.get-notified .email-send .send {
+	display: block;
+	width: 120px;
+	height: 60px;
+
+	font-family: 'Roboto';
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 27px;
+	color: #f7f7f7;
+	
+	background: #cd6326;
+	border: 1px solid #cd6326;
+	border-radius: 0 5px 5px 0;
+
+	cursor: pointer;
+	outline: none;
+}
+
+.get-notified .email-send .send:hover {
+	background-color: #e39128;
+	border-color: #e39128;
+}
+.get-notified .email-send .send:active {
+	background-color: #8f5613;
+	border-color: #8f5613;
 }
 
 /* styles for footer */
 
-.footer {
-	background-color: #181617
-}
+.footer { background-color: #181617; }
+
