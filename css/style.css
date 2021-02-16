@@ -35,7 +35,7 @@
 }
 
 .header .logo .logo-header {
-	margin-left: 15px;
+	padding-left: 15px;
 	
 	font-family: 'Roboto';
 	font-size: 32px;
@@ -219,8 +219,6 @@
 }
 
 .latest-articles .news .news-item .news-text .news-title {
-	margin-bottom: 10px;
-	
 	font-family: 'Open Sans';
 	font-size: 22px;
 	font-weight: 400;
@@ -230,7 +228,8 @@
 }
 
 .latest-articles .news .news-item .news-text .news-descr {
-	margin-bottom: 40px;
+	padding-top: 10px;
+	padding-bottom: 40px;
 	
 	font-family: 'Open Sans';
 	font-size: 17px;
