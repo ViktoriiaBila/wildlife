@@ -200,6 +200,7 @@
 .latest-articles .news .news-arrow {
 	display: flex;
 	align-items: center;
+	cursor: pointer;
 }
 
 .latest-articles .news .news-item {
@@ -238,8 +239,6 @@
 	color: #f7f7f7;
 	text-align: center;
 }
-
-
 
 /* styles for get-notified */
 
