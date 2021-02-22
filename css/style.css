@@ -66,19 +66,8 @@
 .header .nav ul li .btn-blog:hover,
 .header .nav ul li .btn-contacts:hover { color: #cf6426; }
 
-.header .nav ul li .btn-search {
-	display: block;
-	height: 24px;
-}
-
-.header .nav ul li .btn-search:hover,
-.header .nav ul li .btn-search:active { background: url('/icons/search-press.png'); }
-
-.header .nav ul li .btn-search img:hover,
-.header .nav ul li .btn-search img:active { 
-	background: transparent;
-	visibility: hidden;
-}
+.header .nav ul li .btn-search svg:hover #search,
+.header .nav ul li .btn-search svg:active #search { fill: #cf6426; }
 
 .header .nav ul li .btn-sign-in {
 	display: block;
@@ -105,6 +94,7 @@
 }
 
 /* styles for survival */
+
 .survival { background-color: #02160b; }
 
 .survival-wrapper {
@@ -144,7 +134,7 @@
 	font-family: 'Roboto';
 	font-size: 23px;
 	font-weight: 400;
-	color: #F7F7F7;
+	color: #f7f7f7;
 	text-align: center;
 
 	background: #cd6326;
@@ -165,9 +155,7 @@
 
 /* styles for latest-articles */
 
-.latest-articles {
-	background-color: #cccccc;
-}
+.latest-articles { background-color: #ccc; }
 
 .latest-articles .latest-articles-header {
 	padding-top: 120px;
@@ -176,7 +164,7 @@
 	font-size: 48px;
 	font-weight: 400;
 	line-height: 72px;
-	color: #333333;
+	color: #333;
 	text-align: center;
 }
 
@@ -187,7 +175,7 @@
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 36px;
-	color: #666666;
+	color: #666;
 	text-align: center;
 }
 
@@ -203,9 +191,10 @@
 	cursor: pointer;
 }
 
-.latest-articles .news .news-item {
-	position: relative;
-}
+.latest-articles .news .news-arrow svg:hover #arrow,
+.latest-articles .news .news-arrow svg:active #arrow { fill: #333; }
+
+.latest-articles .news .news-item { position: relative; }
 
 .latest-articles .news .news-item .news-img { display: block; }
 
@@ -251,7 +240,7 @@
 	font-size: 27px;
 	font-weight: 400;
 	line-height: 40px;
-	color: #333333;
+	color: #333;
 	text-align: center;
 }
 .get-notified .email-send {
@@ -269,10 +258,10 @@
 	font-size: 23px;
 	font-weight: 400;
 	line-height: 27px;
-	color: #666666;
+	color: #666;
 	
 	background-color: transparent;
-	border: 1px solid #666666;
+	border: 1px solid #666;
 
 	cursor: pointer;
 	outline: none;
@@ -372,4 +361,28 @@
 	width: 240px;
 }
 
-.footer .link-social-network ul li a img { display: block; }
+.footer .link-social-network ul li a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	
+	background-color: #f7f7f7;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 20px;
+}
+
+.footer .link-social-network ul li .link-facebook { background-image: url(../icons/facebook.svg); }
+.footer .link-social-network ul li .link-instagram { background-image: url(../icons/instagram.svg); }
+.footer .link-social-network ul li .link-pinterest { background-image: url(../icons/pinterest.svg); }
+.footer .link-social-network ul li .link-telegram { background-image: url(../icons/telegram.svg); }
+
+.footer .link-social-network ul li .link-facebook:hover,
+.footer .link-social-network ul li .link-instagram:hover,
+.footer .link-social-network ul li .link-pinterest:hover,
+.footer .link-social-network ul li .link-telegram:hover { background-color: #cf6426; }
+
+.footer .link-social-network ul li .link-facebook:active,
+.footer .link-social-network ul li .link-instagram:active,
+.footer .link-social-network ul li .link-pinterest:active,
+.footer .link-social-network ul li .link-telegram:active { background-color: #8f5613; }
