@@ -1,0 +1,54 @@
+@media screen and (max-width: 1220px) {
+	.container { width: 100%; }
+	
+	.header { width: 100%; }
+
+	.latest-articles .news #news-item-bird { display: none; }
+}
+
+@media screen and (max-width: 960px) {
+	.header { flex-direction: column; }
+
+	.footer .container {
+		flex-direction: column;
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.latest-articles .news {
+		justify-content: space-around;
+	}
+
+	.latest-articles .news #news-item-squirrel { display: none; }
+}
+
+@media screen and (max-width: 500px) {
+	.header .nav ul {
+		flex-direction: column;
+		width: 100%;
+		height: 200px;
+	}
+
+	.survival .survival-header { padding-top: 300px; }
+
+	.survival .btn-donate { margin-bottom: 140px; }
+
+	.latest-articles .news .news-item img,
+	.latest-articles .news .news-item .news-text { width: 90%; }
+	
+	.footer .container {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.footer .nav ul { 
+		flex-direction: column;
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	.footer .nav ul li .btn-articles, 
+	.footer .nav ul li .btn-about-us,
+	.footer .nav ul li .btn-learn-more { line-height: 45px; }
+	.footer .link-social-network ul { padding-top: 20px; }
+}
