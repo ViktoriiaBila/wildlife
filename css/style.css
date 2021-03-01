@@ -191,8 +191,10 @@
 	cursor: pointer;
 }
 
-.latest-articles .news .news-arrow svg:hover #arrow,
-.latest-articles .news .news-arrow svg:active #arrow { fill: #333; }
+.latest-articles .news .news-arrow svg:hover #arrow-left,
+.latest-articles .news .news-arrow svg:hover #arrow-right,
+.latest-articles .news .news-arrow svg:active #arrow-left,
+.latest-articles .news .news-arrow svg:active #arrow-right { fill: #333; }
 
 .latest-articles .news .news-item { position: relative; }
 
