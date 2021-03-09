@@ -70,7 +70,9 @@
 .header .nav ul li .btn-search svg:active #search { fill: #cf6426; }
 
 .header .nav ul li .btn-sign-in {
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 120px;
 	height: 50px;
 
