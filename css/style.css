@@ -379,14 +379,16 @@
 .footer .link-social-network ul li .link-facebook { background-image: url(../icons/facebook.svg); }
 .footer .link-social-network ul li .link-instagram { background-image: url(../icons/instagram.svg); }
 .footer .link-social-network ul li .link-pinterest { background-image: url(../icons/pinterest.svg); }
-.footer .link-social-network ul li .link-telegram { background-image: url(../icons/telegram.svg); }
+.footer .link-social-network ul li .link-youtube { background-image: url(../icons/youtube.svg); }
 
 .footer .link-social-network ul li .link-facebook:hover,
 .footer .link-social-network ul li .link-instagram:hover,
-.footer .link-social-network ul li .link-pinterest:hover,
-.footer .link-social-network ul li .link-telegram:hover { background-color: #cf6426; }
+.footer .link-social-network ul li .link-pinterest:hover { background-color: #cf6426; }
+
+.footer .link-social-network ul li .link-youtube:hover { background-image: url(../icons/youtube-h.svg); }
 
 .footer .link-social-network ul li .link-facebook:active,
 .footer .link-social-network ul li .link-instagram:active,
-.footer .link-social-network ul li .link-pinterest:active,
-.footer .link-social-network ul li .link-telegram:active { background-color: #8f5613; }
+.footer .link-social-network ul li .link-pinterest:active { background-color: #8f5613; }
+
+.footer .link-social-network ul li .link-youtube:active { background-image: url(../icons/youtube-a.svg); }
